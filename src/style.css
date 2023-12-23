@@ -1,0 +1,166 @@
+
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    color:white;
+}
+
+
+body{
+
+    background-color: rgb(117, 85, 146);
+}
+
+h3{
+    font-size: 13px;;
+}
+
+.heading img{
+    height:30px;
+    width:30px;
+    margin-left:7px;
+
+}
+.heading{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+ .todo-task li{
+    padding:2px;
+    margin-bottom:4px;
+ 
+    margin:0  3px 7px 0px;
+    border-radius:20px;
+    color:black;
+    font-size: 14px;
+    list-style: none;
+text-decoration: none;
+position: relative;
+
+
+
+}
+
+
+.todo-container{
+ display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    max-width:470px;
+    background:#37113f;
+    margin:100px auto 20px;
+    padding:4px 30px 70px;
+    border-radius: 10px;
+}
+.input-field{
+    margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;
+   background-color:rgb(255, 255, 255);
+   color:black;
+ width:350px;
+   margin-left:7px;
+   border-radius: 20px;
+
+}
+.input-field input{
+    flex:1;
+outline: none;
+border:none;
+background:transparent;
+padding:2px;
+padding: 7px 15px;
+color:black;
+
+}
+.input-field button{
+    padding: 7px 15px;
+    overflow: hidden;
+    border-radius: 20px;
+    color:rgb(46, 43, 43);
+    background:rgb(255, 255, 29);
+    outline:none;
+    border:none;
+    font-weight: 500;
+}
+
+
+ 
+
+
+
+
+ul li span:hover{
+    background:#edeef0;
+
+}
+
+.btn-remove{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-remove button{
+    color:black;
+    background:rgb(255, 255, 29);
+    border: none;
+    outline:none;
+    border-radius: 20px;
+    padding:10px;
+    margin-top: 20px;
+}
+.btn-remove span{
+    color:black;
+
+}
+
+
+
+
+.todo-task-items{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:white;
+    word-break: break-word;
+    margin-left:-23px;
+    margin-bottom:6px;
+    border-radius: 15px;
+width:350px;
+    padding:3px;
+
+}
+
+
+.todo-btn{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+   
+}
+
+.delete-edit-btn{
+    display: flex;
+    width:40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 7PX;;
+  
+}
+.edit-btn{
+    margin-left: 9px;;
+}
